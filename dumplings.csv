@@ -1,0 +1,13 @@
+,xiaolongbao,stuffed pasta shells,hom sui gok,empanada,gnocchi,gyoza,khinkali,kreplach,mandoo,manti,momo,pelmeni,pierogi,wonton,shumai,ravioli,tortellini,clootie dumpling,apple dumpling,ang ku kueh,gulab jamun,char siu bao,matzo balls,crab rangoon,samosa,mantou
+exterior_dough,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,?,1,1,1
+cooked_together,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+small_size,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,?,1,1,1,1,1,1,1,1,1,1
+discrete_filling,1,1,1,1,,1,1,1,1,1,1,1,1,1,1,1,1,,1,1,,1,,1,1,
+soft_after_cooking,1,1,,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,,1,1,1,1,,,1
+medium_size,1,,1,,1,1,1,1,1,1,1,1,,1,1,1,1,,,1,1,,1,1,,
+circular_footprint,1,,1,,1,,1,,1,1,1,1,,1,1,1,1,1,1,1,1,1,1,1,,
+bindle_shaped,1,,,,,,1,1,,1,,,,1,,,,,,,,,,,1,
+boiled,1,1,,,1,,1,1,1,1,,1,1,1,,1,1,1,,,,,1,,,
+steamed,,,1,,,1,,,1,,1,,,,1,,,,,1,,1,,,,1
+fully_enclosed,1,,1,1,1,1,1,1,1,1,1,1,1,1,,1,1,1,1,1,1,1,1,1,1,1
+edge_folding,1,,,1,,1,1,1,1,1,1,1,1,1,1,1,1,,,,,,,1,,
