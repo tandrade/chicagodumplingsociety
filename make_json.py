@@ -21,10 +21,10 @@ Output two JSON documents:
 data_file = "dumplings.csv"
 
 with open(data_file) as csvfile:
-  reader = csv.reader(csvfile)
+    reader = csv.reader(csvfile)
 
-  headers = reader.next()
-  # format the headers
-  for row in reader:
-    pass
-  # read in the data
+    headers = reader.next()
+    # format the headers
+    for row in reader:
+        pass
+    # read in the data
