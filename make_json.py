@@ -22,9 +22,13 @@ data_file = "dumplings.csv"
 
 with open(data_file) as csvfile:
     reader = csv.reader(csvfile)
+    headers = next(reader)
+    position_map = {index: {"name": key, "traits": {}} for (index, key) in enumerate(headers) if key}
 
-    headers = reader.next()
-    # format the headers
     for row in reader:
-        pass
-    # read in the data
+        property_name = row[0]
+        for index, value in enumerate(row[1:]):
+            position_map[index + 1]["traits"][property_name] = bool(value)
+
+    # this is what we want to write!
+    final = {"candidates": [v for k, v in position_map.items()]}
